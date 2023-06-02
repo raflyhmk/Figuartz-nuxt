@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id_produk": "9",
+      "namaProduk": "86 - Eighty Six - Vladilena Milizé PM Figure",
+      "fotoProduk": "/image/figure1.jpg",
+      "series": "86 - Eighty Six",
+      "manufacture": "SEGA",
+      "tinggi": "19cm - 22cm",
+      "harga": "325000",
+      "status": "pre order"
+    },
+    {
+      "id_produk": "10",
+      "namaProduk": "GSC NENDOROID 1771 FGO - SABER SENJI MURAMASA",
+      "fotoProduk": "/image/figure2.jpg",
+      "series": "Fate Grand/Order",
+      "manufacture": "GSC",
+      "tinggi": "10 cm",
+      "harga": "740000",
+      "status": "ready stock"
+    },
+    {
+      "id_produk": "11",
+      "namaProduk": "Metal Build Gundam Devise Exia",
+      "fotoProduk": "/image/figure3.jpg",
+      "series": "Metal Build Gundam",
+      "manufacture": "TAMASHII NATIONS",
+      "tinggi": "20 cm",
+      "harga": "1300000",
+      "status": "ready stock"
+    },
+    {
+      "id_produk": "12",
+      "namaProduk": "Gantungan Kunci Meito Shushui Roronoa Zoro",
+      "fotoProduk": "/image/figure4.jfif",
+      "series": "one piece",
+      "manufacture": "Maximono",
+      "tinggi": "22 cm",
+      "harga": "100000",
+      "status": "ready stock"
+    },
+
+    {
+      "id_produk": "13",
+      "namaProduk": "PVC FIGURE BNHA - NEJIRE HADO HERO: SUITS VER",
+      "fotoProduk": "/image/nejire.jpg",
+      "series": "Boku no Hero Academia",
+      "manufacture": "BELLFINE",
+      "tinggi": "TBA",
+      "harga": "2740000",
+      "status": "pre order"
+    },
+    {
+      "id_produk": "14",
+      "namaProduk": "GSC NENDOROID BLUELOCK - ISAGI YOICHI",
+      "fotoProduk": "/image/isagi.jpg",
+      "series": "Blue Lock",
+      "manufacture": "GSC",
+      "tinggi": "10 cm",
+      "harga": "650000",
+      "status": "pre order"
+    },
+
+    {
+      "id_produk": "15",
+      "namaProduk": "GSC POP UP PARADE FIGURE TENSURA - RIMURU",
+      "fotoProduk": "/image/rimuru.jpg",
+      "series": "Tensei shitara Slime Datta Ken",
+      "manufacture": "GSC",
+      "tinggi": "16 cm",
+      "harga": "530000",
+      "status": "ready stock"
+    },
+    {
+      "id_produk": "16",
+      "namaProduk": "BANDAI MG 1/100 DESTINY GUNDAM",
+      "fotoProduk": "/image/gundam.jfif",
+      "series": "Mobile Suit Gundam",
+      "manufacture": "Bandai",
+      "tinggi": "1/1000",
+      "harga": "720000",
+      "status": "pre order"
+    },
+    {
+      "id_produk": "17",
+      "namaProduk": "FURYU TENITOL FIGURE - ELAINA",
+      "fotoProduk": "/image/elaina.jpg",
+      "series": "Majo no Tabitabi",
+      "manufacture": "FURYU",
+      "tinggi": "TBA",
+      "harga": "650000",
+      "status": "ready stock"
+    },
+    {
+      "id_produk": "18",
+      "namaProduk": "PVC 1/7 FIGURE RE: ZERO - EMILIA: TEA PARTY VER",
+      "fotoProduk": "/image/emilia.jpg",
+      "series": "Re:Zero",
+      "manufacture": "Kadokawa",
+      "tinggi": "20 cm",
+      "harga": "2150000",
+      "status": "pre order"
+    }
+  ]
+}
