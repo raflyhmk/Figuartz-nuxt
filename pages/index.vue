@@ -8,16 +8,32 @@
     >
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
-          <img src="#" class="d-block w-100" alt="jual action figure" />
+          <img
+            src="/image/slide 1.png"
+            class="d-block w-100"
+            alt="jual action figure"
+          />
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="#" class="d-block w-100" alt="jual gundam model kit" />
+          <img
+            src="/image/slide 2.png"
+            class="d-block w-100"
+            alt="jual gundam model kit"
+          />
         </div>
         <div class="carousel-item">
-          <img src="#" class="d-block w-100" alt="jual nendoroid" />
+          <img
+            src="/image/slide 3.png"
+            class="d-block w-100"
+            alt="jual nendoroid"
+          />
         </div>
         <div class="carousel-item">
-          <img src="#" class="d-block w-100" alt="jual replika senjata" />
+          <img
+            src="/image/slide 4.png"
+            class="d-block w-100"
+            alt="jual replika senjata"
+          />
         </div>
       </div>
       <button
@@ -66,22 +82,30 @@
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
-          <a to="#"><img src="#" alt="action figure" /></a>
+          <NuxtLink to="#"
+            ><img src="/image/figure.jpg" alt="action figure"
+          /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
-          <a to="#"><img src="#" alt="nendoroid" /></a>
+          <NuxtLink to="#"
+            ><img src="/image/nendoroid.jpg" alt="nendoroid"
+          /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
-          <a to="#"><img src="#" alt="model kit" /></a>
+          <NuxtLink to="#"
+            ><img src="/image/model kit.jpg" alt="model kit"
+          /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
-          <a to="#"><img src="#" alt="weapon replika" /></a>
+          <NuxtLink to="#"
+            ><img src="/image/replika.jpg" alt="weapon replika"
+          /></NuxtLink>
         </div>
       </div>
     </div>
@@ -103,7 +127,10 @@
           :key="p"
         >
           <NuxtLink :to="`/products/${p.id}`" style="text-decoration: none">
-            <img src="#" alt="action figure vladilena milize" />
+            <img
+              :src="'/image/' + p.fotoProduk"
+              alt="action figure vladilena milize"
+            />
 
             <h1 class="namaFigure fw-medium mt-2">
               {{ p.namaProduk }}
