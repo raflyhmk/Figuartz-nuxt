@@ -118,13 +118,12 @@
             .slice(0, 4)"
           :key="p"
         >
-          <NuxtLink :to="`/products/${p.id}`" style="text-decoration: none"
-            ><center>
-              <img
-                :src="'/image/' + p.fotoProduk"
-                alt="action figure vladilena milize"
-              />
-            </center>
+          <NuxtLink :to="`/products/${p.id}`" style="text-decoration: none">
+            <img
+              :src="'/image/' + p.fotoProduk"
+              alt="action figure vladilena milize"
+            />
+
             <h1 class="namaFigure fw-medium mt-2">
               {{ p.namaProduk }}
               <span
