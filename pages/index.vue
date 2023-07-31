@@ -264,8 +264,6 @@
 const { data: products } = await useFetch(
   "https://my-json-server.typicode.com/raflyhmk/json-figuartz/products"
 );
-
-console.log(products.value);
 </script>
 
 <style></style>

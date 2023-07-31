@@ -129,9 +129,6 @@ const { data: listProducts } = await useFetch(
 );
 
 const { data: products } = await useFetch(uri);
-
-console.log(listProducts.value);
-console.log(products.value);
 </script>
 
 <style></style>
