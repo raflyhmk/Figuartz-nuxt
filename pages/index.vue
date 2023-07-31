@@ -9,28 +9,28 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
           <img
-            src="/image/slide 1.png"
+            src="~/assets/image/slide-1.png"
             class="d-block w-100"
             alt="jual action figure"
           />
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img
-            src="/image/slide 2.png"
+            src="~/assets/image/slide-2.png"
             class="d-block w-100"
             alt="jual gundam model kit"
           />
         </div>
         <div class="carousel-item">
           <img
-            src="/image/slide 3.png"
+            src="~/assets/image/slide-3.png"
             class="d-block w-100"
             alt="jual nendoroid"
           />
         </div>
         <div class="carousel-item">
           <img
-            src="/image/slide 4.png"
+            src="~/assets/image/slide-4.png"
             class="d-block w-100"
             alt="jual replika senjata"
           />
@@ -83,28 +83,28 @@
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="/image/figure.jpg" alt="action figure"
+            ><img src="~/assets/image/figure.jpg" alt="action figure"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="/image/nendoroid.jpg" alt="nendoroid"
+            ><img src="~/assets/image/nendoroid.jpg" alt="nendoroid"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="/image/model kit.jpg" alt="model kit"
+            ><img src="~/assets/image/modelkit.jpg" alt="model kit"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="/image/replika.jpg" alt="weapon replika"
+            ><img src="~/assets/image/replika.jpg" alt="weapon replika"
           /></NuxtLink>
         </div>
       </div>
