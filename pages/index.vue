@@ -9,28 +9,28 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
           <img
-            src="/image/slide 1.png"
+            src="../public/image/slide 1.png"
             class="d-block w-100"
             alt="jual action figure"
           />
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img
-            src="/image/slide 2.png"
+            src="../public/image/slide 2.png"
             class="d-block w-100"
             alt="jual gundam model kit"
           />
         </div>
         <div class="carousel-item">
           <img
-            src="/image/slide 3.png"
+            src="../public/image/slide 3.png"
             class="d-block w-100"
             alt="jual nendoroid"
           />
         </div>
         <div class="carousel-item">
           <img
-            src="/image/slide 4.png"
+            src="../public/image/slide 4.png"
             class="d-block w-100"
             alt="jual replika senjata"
           />
