@@ -28,7 +28,7 @@
           <li class="nav-item dropdown">
             <NuxtLink
               class="nav-link dropdown-toggle"
-              to="/"
+              to="#"
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
@@ -38,21 +38,21 @@
             </NuxtLink>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <NuxtLink class="dropdown-item" to="/">Ready stock</NuxtLink>
+                <NuxtLink class="dropdown-item" to="#">Ready stock</NuxtLink>
               </li>
               <li>
-                <NuxtLink class="dropdown-item" to="/">Pre order</NuxtLink>
+                <NuxtLink class="dropdown-item" to="#">Pre order</NuxtLink>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/">About us</NuxtLink>
+            <NuxtLink class="nav-link" to="#">About us</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/">Our Reviews</NuxtLink>
+            <NuxtLink class="nav-link" to="#">Our Reviews</NuxtLink>
           </li>
         </ul>
-        <NuxtLink to="/"
+        <NuxtLink to="#"
           ><i class="fa-solid fa-cart-shopping"
             ><span>cart 0</span></i
           ></NuxtLink
