@@ -83,28 +83,28 @@
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="~/assets/image/figure.jpg" alt="action figure"
+            ><img src="/image/figure.jpg" alt="action figure"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="~/assets/image/nendoroid.jpg" alt="nendoroid"
+            ><img src="/image/nendoroid.jpg" alt="nendoroid"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="~/assets/image/modelkit.jpg" alt="model kit"
+            ><img src="/image/modelkit.jpg" alt="model kit"
           /></NuxtLink>
         </div>
         <div
           class="col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
         >
           <NuxtLink to="#"
-            ><img src="~/assets/image/replika.jpg" alt="weapon replika"
+            ><img src="/image/replika.jpg" alt="weapon replika"
           /></NuxtLink>
         </div>
       </div>
@@ -131,7 +131,6 @@
               :src="'/image/' + p.fotoProduk"
               alt="action figure vladilena milize"
             />
-
             <h1 class="namaFigure fw-medium mt-2">
               {{ p.namaProduk }}
               <span
