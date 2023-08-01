@@ -121,9 +121,7 @@
       <div class="row">
         <div
           class="figure col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
-          v-for="p in products
-            .filter((p) => p.status === 'ready stock')
-            .slice(0, 4)"
+          v-for="p in products.slice(0, 4)"
           :key="p"
         >
           <NuxtLink :to="`/products/${p.id}`" style="text-decoration: none">
