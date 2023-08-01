@@ -117,10 +117,10 @@
     <center>
       <h1 class="title fw-bold">Our Recommendations</h1>
     </center>
-    <div class="container mt-4">
+    <div class="container mt-4 text-center">
       <div class="row">
         <div
-          class="figure col-sm-12 col-md-6 col-lg-6 col-xl-3 d-flex justify-content-center mb-3"
+          class="figure col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-3"
           v-for="p in products.slice(0, 4)"
           :key="p"
         >
@@ -129,7 +129,7 @@
               :src="'/image/' + p.fotoProduk"
               alt="action figure vladilena milize"
             />
-            <h1 class="namaFigure fw-medium mt-2">
+            <h1 class="namaFigure fw-medium mt-2 text-md-start">
               {{ p.namaProduk }}
               <span
                 style="font-weight: 700; color: #9a7b41"
@@ -138,7 +138,7 @@
                 ({{ p.status }})</span
               >
             </h1>
-            <h3 class="hargaFigure mt-3 fw-bold">
+            <h3 class="hargaFigure mt-3 fw-bold text-md-start">
               IDR {{ Intl.NumberFormat().format(p.harga) }}
             </h3>
           </NuxtLink>
